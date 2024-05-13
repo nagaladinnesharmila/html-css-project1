@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Webpage</title>
+  <style>
+    #container {
+      margin: auto;
+      border: 3px solid #2DBE2F;
+      padding: 30px;
+      width: 40%;
+    }
+    
+    h1, h2 {
+      text-align: center;
+      color: #FCFF33;
+    }
+    
+    table {
+      background-image: url('C:/Users/DELL/Downloads/education4.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-collapse: collapse;
+      margin: 20px auto;
+      border: 1px solid black;
+      padding: 10px;
+      width: 80%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    body {
+      background-image: url('https://images.all-free-download.com/images/graphicwebp/education_picture_hand_writing_closeup_6935950.webp');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+</head>
+<body>
+  <h1>Student Education Details</h1>
+  <div id="container">
+    <h2>Student Details</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Class</th>
+        <th>Branch</th>
+        <th>CGPA</th>
+        <th>College</th>
+      </tr>
+      <tr>
+        <td>Pooja</td>
+        <td>B.tech</td>
+        <td>IT</td>
+        <td>7.5</td>
+        <td>GPREC</td>
+      </tr>
+      <tr>
+        <td>Harish</td>
+        <td>B.tech</td>
+        <td>ECE</td>
+        <td>7.0</td>
+        <td>GPREC</td>
+      </tr>
+      <tr>
+        <td>Sharmila</td>
+        <td>B.tech</td>
+        <td>EEE</td>
+        <td>7.2</td>
+        <td>GPREC</td>
+      </tr>
+      <tr>
+        <td>Sreeja</td>
+        <td>B.tech</td>
+        <td>CIVIL</td>
+        <td>7.2</td>
+        <td>GPREC</td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
